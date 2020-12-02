@@ -53,7 +53,7 @@ namespace MapPolygon
 
             try
             {
-                using (StreamWriter streamWriter = new StreamWriter(String.Empty, false, System.Text.Encoding.Default))
+                using (StreamWriter streamWriter = new StreamWriter(writePath, false, System.Text.Encoding.Default))
                 {
                     streamWriter.WriteLine(finalVerticesArray);
                 }
